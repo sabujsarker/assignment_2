@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+/*    color: white;*/
+}
+
+.top{
+    min-height: 100px;
+}
+.left>img{
+      height: 80px;
+/*    width: 65px;*/
+    padding: 10px;
+    float: left;
+/*    margin-left: 29px;*/
+}
+.right{
+float: right
+}
+.right>ul>li{
+     float: left;
+    list-style: none;
+    padding: 39px;
+/*    margin-top: 12px;*/
+    font-size: 20px
+}
+.right>ul>li>a{
+    text-decoration: none;
+    color: black
+}
+/*
+.backgroud{
+    height: 100vh;
+    background-size: cover;
+    background-image: url()
+}
+*/
+/*
+body{
+    background: black;
+}
+*/
+.right>ul>li>a:hover{
+    color: #da8f8f4d;
+}
+.bannar{
+    background-image: url(../imgs/23701f2b-al-AF-151cb8dfd82.jpg);
+    background-repeat: no-repeat;
+  min-height: 800px;
+    background-size: cover;
+    position: relative;
+}
+.bannar_contant{
+    position: absolute;
+    left: 10%;
+    bottom: 20%;
+    background: #5f9ea04f;
+    border-radius: 12px;
+    padding: 25px;
+    line-height: 32px;
+}
+.bannar_contant>h1{
+ font-size: 39px;
+    margin-bottom: 16px;text-decoration: underline
+}
+.bannar_contant>p{
+    font-size: 20px
+}
+.bannar_contant>button{
+        background: black;
+    color: white;
+    border: 2px solid;
+    border-color: red;
+    padding: 10px;
+    margin-top: 10px;    cursor: pointer;
+}
+.section{
+    margin-top: 10px;
+}
+.section_imges{
+    background-image: url(../imgs/acft-a350-5-916x516.jpg);
+    min-height: 531px;background-repeat: no-repeat;
+     float: left;
+    width: 71%;
+}
+.about_us{
+    line-height: 35px;padding: 32px;
+}
+.about_us>h1{
+   padding: 17px;
+    font-size: 43px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.about_us>p{
+    font-size: 22px;
+}
+.
